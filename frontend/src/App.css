@@ -1,0 +1,32 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.square{
+  width: 100px;
+  height: 100px;
+  font-size: 30px;
+  background-color: #4ffafa;
+  cursor: pointer;
+}
+
+.board{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+  margin: 20px 0;
+}
+
+.status{
+  font-size: 18px;
+  margin: 20px 0;
+  cursor: pointer;
+}
+
+.game-board{
+  /* border: 1px solid red; */
+  margin: 100px 0;
+}
