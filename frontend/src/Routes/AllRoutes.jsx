@@ -1,7 +1,7 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom'
-import Home from '../components/Home';
 import GameBoard from '../Components/GameBoard';
+import Home from '../Components/Homepage';
 
 const AllRoutes = () => {
     return (
